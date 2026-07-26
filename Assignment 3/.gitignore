@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# Generated at run time by the agents - the pipeline regenerates these
+# fresh on every run, so they don't need to live in git.
+data/locators/*.json
+data/generated_tests/*.py
+data/reports/*
+!data/locators/.gitkeep
+!data/generated_tests/.gitkeep
+!data/reports/.gitkeep
