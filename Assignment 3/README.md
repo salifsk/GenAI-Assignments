@@ -1,3 +1,19 @@
+# Screenshot of the response
+## Files automatically created after running the orchestrator
+![Files creation](./screenshots/1.png)
+
+## Few generated locators
+![Generated locators](./screenshots/2.png)
+
+
+## Few generated test cases
+![Generated Testcases](./screenshots/3.png)
+
+## Report summary
+![Report summary](./screenshots/4.png)
+
+
+
 # Multi-agent web test automation framework
 
 Target under test: a configurable website, with SauceDemo used as the default example.
