@@ -30,6 +30,13 @@ steps:
       HEADLESS: 'true'
     continueOnError: true
 
+  - script: |
+      echo "Running pytest to generate JUnit XML if tests exist"
+      mkdir -p data/reports || true
+      pytest -q --junitxml=data/reports/results.xml || true
+    displayName: 'Run pytest (produce JUnit XML)'
+    continueOnError: true
+
   - task: PublishTestResults@2
     inputs:
       testResultsFormat: 'JUnit'
