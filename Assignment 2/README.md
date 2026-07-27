@@ -1,3 +1,13 @@
+# Screenshots of response
+## Comparative analysis
+![Comparative analysis](./screenshots/1.png)
+## 
+![Requirements analysis](./screenshots/2.png)
+## QA Reviewer
+![Comparative analysis](./screenshots/3.png)
+
+
+
 # Groq QA Exercise
 
 This folder contains the Assignment 2 implementation for a multi-agent QA requirements workflow.
