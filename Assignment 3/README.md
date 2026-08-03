@@ -12,10 +12,15 @@
 ## Report summary
 ![Report summary](./screenshots/4.png)
 
+<<<<<<< HEAD
 ## Azure Pipeline
 ![Azure Pipeline](./screenshots/5.png)
 
 
+=======
+## Azure pipeline
+![Azure Pipeline](./screenshots/5.png)
+>>>>>>> 2d1b0ba64f4394e15b0962ca4da2580bbfe0ac2b
 
 # Multi-agent web test automation framework
 

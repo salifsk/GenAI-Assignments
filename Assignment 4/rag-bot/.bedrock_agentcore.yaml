@@ -1,0 +1,62 @@
+default_agent: agent69
+agents:
+  agent69:
+    name: agent69
+    language: python
+    node_version: '20'
+    entrypoint: C:/Users/sshaikh1.ext/AWS Assignment/rag-bot/multi_agent_runtime.py
+    deployment_type: container
+    runtime_type: null
+    platform: linux/arm64
+    container_runtime: none
+    source_path: C:\Users\sshaikh1.ext\AWS Assignment\rag-bot
+    aws:
+      execution_role: arn:aws:iam::197701154184:role/AmazonBedrockAgentCoreSDKRuntime-us-east-1-378ad63fc7
+      execution_role_auto_create: false
+      account: '197701154184'
+      region: us-east-1
+      ecr_repository: 197701154184.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-agent69
+      ecr_auto_create: false
+      s3_path: null
+      s3_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+      lifecycle_configuration:
+        idle_runtime_session_timeout: null
+        max_lifetime: null
+    bedrock_agentcore:
+      agent_id: agent69-pkOK404pAo
+      agent_arn: arn:aws:bedrock-agentcore:us-east-1:197701154184:runtime/agent69-pkOK404pAo
+      agent_session_id: abfc1d73-e07b-483e-9da9-3260ede84919
+    codebuild:
+      project_name: bedrock-agentcore-agent69-builder
+      execution_role: arn:aws:iam::197701154184:role/AmazonBedrockAgentCoreSDKCodeBuild-us-east-1-378ad63fc7
+      source_bucket: bedrock-agentcore-codebuild-sources-197701154184-us-east-1
+    memory:
+      mode: NO_MEMORY
+      memory_id: null
+      memory_arn: null
+      memory_name: null
+      event_expiry_days: 30
+      first_invoke_memory_check_done: false
+      was_created_by_toolkit: false
+    identity:
+      credential_providers: []
+      workload: null
+    aws_jwt:
+      enabled: false
+      audiences: []
+      signing_algorithm: ES384
+      issuer_url: null
+      duration_seconds: 300
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+    api_key_env_var_name: null
+    api_key_credential_provider_name: null
+    is_generated_by_agentcore_create: false

@@ -1,0 +1,11 @@
+bedrock-agentcore
+bedrock-agentcore-starter-toolkit
+boto3
+langchain
+langchain-aws
+langchain-community
+langchain-text-splitters
+langgraph
+pypdf
+opentelemetry-instrumentation-langchain
+
