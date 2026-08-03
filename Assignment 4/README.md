@@ -2,6 +2,33 @@
 
 This project implements a retrieval-augmented generation (RAG) assistant for User Acceptance Testing (UAT) documents. The bot uses AWS Bedrock AgentCore, LangChain, and PDF-based knowledge sources to answer questions about requirements, test coverage, defects, and release readiness.
 
+
+# Screenshot of the response
+## Model Comparison on Bedrock
+![Bedrock Comparison](./screenshots/bedrock_comparison.png)
+
+## Comparison metrics
+![Comparison Metrics](./screenshots/model_comparison.png)
+
+
+## S3 Bucket
+![S3 Bucket](./screenshots/s3_bucket.png)
+
+## Knowledge Base - testing that knowledge base fetches the documents from S3 and gives appropriate response
+![Knowledge Base](./screenshots/KB_test.png)
+
+## lambda function test - runs successfully with status code 200 and accurate response
+![lambda test](./screenshots/lambda_result.png)
+
+## API Gateway - POST Request generation to invoke function
+![API Gateway](./screenshots/api_gateway.png)
+
+## Agentcore Creation
+![Agentcore](./screenshots/agent_creation.png)
+
+## Terminal output - agent fetches documents from S3 and gives accurate response in the terminal.
+![Terminal output](./screenshots/terminal_Op.png)
+
 ## What the project includes
 
 - A multi-agent runtime for UAT analysis using specialized agents for retrieval, coverage review, and defect triage.
