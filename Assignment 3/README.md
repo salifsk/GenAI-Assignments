@@ -12,6 +12,9 @@
 ## Report summary
 ![Report summary](./screenshots/4.png)
 
+## Azure Pipeline
+![Azure Pipeline](./screenshots/5.png)
+
 
 
 # Multi-agent web test automation framework
